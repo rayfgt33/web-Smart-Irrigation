@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <!-- <link rel="icon" href="/favicon.ico" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#000000" />
+  <title>Desain Project 2</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
+  <link rel="stylesheet" href="./styles/desktop-4.css"/>
+  <script src ="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="desktop-4-Ltu">
+  <div class="auto-group-ibgy-aYM">
+    <div class="header-opR">
+      <img class="makaraofftui-2-YGD" src="./assets/makaraofftui-2.png"/>
+      <div class="header-line-d2m">
+      </div>
+      <div class="auto-group-utev-vnZ">
+        <p class="smart-irrigation-system-3MP">SMART IRRIGATION SYSTEM</p>
+        <p class="desain-project-2-kelompok-36-K41">Desain Project - 2 | Kelompok 3.6</p>
+      </div>
+    </div>
+  </div>
+  <div class="auto-group-jpdf-BM7">
+    <div class="auto-group-rjxh-6ys">
+      <div class="data--dD7">
+        <div class="continent-Meu">
+          <div class="group-1-HHf">
+            <p class="kondisi-relay-penyiraman-AVs">Kondisi Relay Penyiraman</p>
+            <p class="on-fSd" id="relay">OFF</p>
+            <script src ="relay.js"></script>
+          </div>
+          <div class="auto-group-wujf-mkZ">
+            <div class="kondisi-hujan-XDw">
+              <p class="kondisi-hujan-eJZ">Kondisi Hujan</p>
+              <p class="hujan-ZRX" id="cuaca">Cerah</p>
+              <script src ="cuaca.js"></script>
+            </div>
+            <div class="kondisi-air-sx1">
+              <p class="keterisian-tong-cPo">Keterisian Tong</p>
+              <p class="penuh-jjK" id="tong">Kosong</p>
+              <script src ="tong.js"></script>
+            </div>
+            <div class="status-line-sKj">
+            </div>
+            <div class="header-line-mg1">
+            </div>
+          </div>
+        </div>
+        <div class="auto-group-mpz9-cwX">
+          <div class="relay-cointaner-xVb">
+            <p class="relay-switch-TSM">Relay Switch</p>
+            <button class="rectangle-6-Yyb" type="button" id="relayButton">
+            </button>
+            <script src ="switch.js"></script>
+          </div>
+          <div class="header-line-qho">
+          </div>
+          <div class="numerical-container-x1j">
+            <div class="kelembapan-tanah-67w">
+              <div class="kelembapan-tanah-bqP">
+                <p class="kelembapan-tanah-9ru">Kelembapan Tanah</p>
+                <p class="item-100-gbw" id="tanah">0%</p>
+                <script src ="tanah.js"></script>
+              </div>
+            </div>
+            <div class="auto-group-wh2m-Mi5">
+              <div class="air-keluar-Way">
+                <div class="debit-air-Ems">
+                  <p class="air-keluar-zW9">Air Keluar</p>
+                  <div class="item-100-vub" id="air_keluar">0.00</div>
+                  <p class="liter-EvH">Liter </p>
+                  <script src ="air keluar.js"></script>
+                </div>
+              </div>
+              <div class="total-air-keluar-Wso">
+                <div class="total-air-FKb">
+                  <p class="total-air-keluar-l-oc1">Total Air Keluar (L)</p>
+                  <p class="item-100-8uB" id="total_air">0.00</p>
+                  <p class="hari-ini-fPK">Hari ini</p>
+                  <script src ="total air.js"></script>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="awan-Kim" src="./assets/awan.png"/>
+    </div>
+    <div class="auto-group-l4xm-Ta5">
+      <div class="graph-1-aub">
+        <p class="kelembapan-tanah-7ed">Kelembapan Tanah</p>
+        <canvas class="graph-1-r6R" id="graphTanah" width="603" height="203"></canvas>
+        <script src ="graphTanah.js"></script>
+      </div>
+      <div class="graph-2-XCZ">
+        <p class="nilai-relay-TM7">Nilai Relay</p>
+        <canvas class="graph-2-Nys"id="graphRelay" width="603" height="203"></canvas>
+        <script src ="graphRelay.js"></script>
+      </div>
+    </div>
+    <div class="auto-group-pj2u-tBX">
+      <div class="graph-3-Djb">
+        <p class="air-keluar-YG5">Air Keluar</p>
+        <canvas class="graph-3-UfX" id="graphAir" width="603" height="203"></canvas>
+        <script src ="graphAir.js"></script>
+      </div>
+      <div class="graph-4-X81">
+        <p class="total-air-keluar-FZo">Total Air Keluar</p>
+        <canvas class="graph-4-ByF" id="graphTotal" width="603" height="203"></canvas>
+        <script src ="graphTotal.js"></script>
+      </div>
+    </div>
+  </div>
+  <div class="footer-uPT">
+    <div class="footer-SeH">
+      <img class="makaraofftui-3-zvh" src="./assets/makaraofftui-3.png"/>
+      <div class="footer-line-KTB">
+      </div>
+      <div class="auto-group-aejr-SGu">
+        <p class="want-to-ask-question--gBF">Want to ask question ?</p>
+        <p class="raihanfakhargmailcom-PrM">Desainproject2@gmail.com</p>
+        <p class="desain-project-2-kelompok-36-vbP">Desain Project - 2 | Kelompok 3.6</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
